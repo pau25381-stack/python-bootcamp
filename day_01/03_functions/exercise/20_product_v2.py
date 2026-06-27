@@ -1,8 +1,7 @@
-def product():
-    """ TODO: Takes three inputs (or two) and print the product"""
+def product(param1, param2, param3=1):
+    print()
+    print(param1 * param2 * param3)
 
-# TODO: product(1, 1, 1)	# 1
-# TODO: product(1, 2, 3)	# 6
-# TODO: product(2, 5, 10)	# 100
-# TODO: product(3, 3)	    # 9
-# TODO: product(2, 5)	    # 12
+product(5,4)
+
+

@@ -1,3 +1,6 @@
 # TODO: Print the following in the console:
-# Hello! My name is Jeff
-# I am learning Python
+
+print()
+print("Hello! My name is Paulo.")
+print("I am learning Python.")
+

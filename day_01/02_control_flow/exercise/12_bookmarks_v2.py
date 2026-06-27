@@ -1,4 +1,4 @@
 # TODO: Define a list of your favorite websites
-websites = []
-
-# TODO: Print the entire list of websites (one at a time)
+websites = ["facebook.com","youtube.com","instagram.com","chatgpt.com","google.com"]
+for website in websites:
+    print (website)

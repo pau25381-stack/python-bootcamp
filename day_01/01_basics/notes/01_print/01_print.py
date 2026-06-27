@@ -1,1 +1,7 @@
 print("Hello World")
+print("Hello Again")
+print()
+print()
+print("Goodbye")
+print()
+print("I", "am", "happy")

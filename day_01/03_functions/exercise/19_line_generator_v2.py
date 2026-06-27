@@ -7,3 +7,10 @@
 """
 
 # TODO: Use the function once
+
+
+def line_generator(x):
+    for i in range(x):
+        print("Line", i)
+
+line_generator(5)

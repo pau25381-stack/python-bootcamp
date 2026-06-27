@@ -1,5 +1,5 @@
 # TODO: Ask the user for an integer input
-number = int(input("Pick a number: "))
+
 
 # TODO: Print the multiplication table for that number
 """
@@ -17,3 +17,11 @@ number = 3
 3 x 9 = 27
 3 x 10 = 30
 """
+
+number = int(input("Pick a number: "))
+for i in range(number):
+    print(number, "x", i, "=", number * i)
+
+
+
+
