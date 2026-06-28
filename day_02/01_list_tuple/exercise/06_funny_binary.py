@@ -7,5 +7,5 @@ binary_a = list(bin(ord('a')))
 binary_a = binary_a[2:]
 
 # TODO: Create the binary for 'hahaha'
-binary = []
+binary = (binary_h+binary_a)*3
 print(binary)

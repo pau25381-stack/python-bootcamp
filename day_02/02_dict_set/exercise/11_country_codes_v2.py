@@ -5,4 +5,4 @@ country_codes = {
 }
 
 # TODO: Print the country for the given country code
-country_code = input("Enter country code: ")
+print(country_codes[input("Enter country code: ")])

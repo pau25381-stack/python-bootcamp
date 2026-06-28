@@ -6,4 +6,4 @@ country_codes = {
 
 # TODO: Print the country for the given country code
 # TODO: # If the key is not found, print Unknown
-country_code = input("Enter country code: ")
+print(country_codes.get(input("Enter country code: "), "UNKNOWN"))
