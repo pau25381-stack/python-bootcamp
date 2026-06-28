@@ -19,10 +19,12 @@ def show(deck):
 
 def add_top(deck):
 	"""TODO: Add cards in other to the first parts of deck"""
+	return	other
 
 
 def add_bottom(deck, other):
 	"""TODO: Add cards in other to the last parts of deck"""
+	return deck + other
 
 
 def add_random(deck, other):
