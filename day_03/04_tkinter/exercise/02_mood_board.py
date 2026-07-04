@@ -1,6 +1,8 @@
 import tkinter
 
 root = tkinter.Tk()
+root.title("Mood Board")
+root.geometry("400x300")
 
 # TODO: Add properties to design
 label1 = tkinter.Label(root, text=":) Happy")

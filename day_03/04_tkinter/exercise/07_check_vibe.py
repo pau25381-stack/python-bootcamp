@@ -8,12 +8,22 @@ mood_message_map = {
 }
 
 root = tkinter.Tk()
+root.title("Check Vibe")
+root.geometry("400x300")
 
 instructions = tkinter.Label(root, text="What's your current mood?")
 instructions.pack()
 
 # TODO: Add dropdown
-dropdown_var = None
+dropdown_var = tkinter.StringVar(value="Sleepy")
+dropdown_menu = tkinter.OptionMenu(
+    root, dropdown_var,
+    "Sleepy",
+    "Productive",
+    "Hungry",
+    "Stressed"
+)
+dropdown_menu.pack()
 
 vibe_str = tkinter.StringVar(value="Your vibe will appear here...")
 vibe = tkinter.Label(root, textvariable=vibe_str)
