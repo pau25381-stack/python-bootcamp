@@ -8,13 +8,13 @@ root.geometry("400x300")
 
 # TODO: Create StringVar for name
 # TODO: Create StringVar for name
-
+name_var = tk.StringVar()
 # TODO: Create StringVar for age
 # TODO: Create StringVar for age
-
+age_var = tk.StringVar()
 # TODO: Create StringVar for theme
 # TODO: Create StringVar for theme
-
+theme_var = tk.StringVar()
 #
 # TODO: Create BooleanVar for subscribe
 # TODO: Create BooleanVar for subscribe
