@@ -18,7 +18,7 @@ age_var = tk.StringVar()
 # TODO: Create StringVar for theme
 theme_var = tk.StringVar()
 
-
+#
 # TODO: Create BooleanVar for subscribe
 # TODO: Create BooleanVar for subscribe
 subscribe_var = tk.BooleanVar()
@@ -26,7 +26,7 @@ subscribe_var = tk.BooleanVar()
 # TODO: Create IntVar for rating
 # TODO: Create IntVar for rating
 rating_var = tk.IntVar()
-
+#
 tk.Label(root,text="Name:").grid(row=0, column=0, sticky="w", padx=3, pady=3)
 tk.Entry(root, textvariable=name_var).grid(row=0, column=1, padx=3, pady=3)
 
