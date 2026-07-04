@@ -1,12 +1,23 @@
 import tkinter
 
 root = tkinter.Tk()
+root.title("Store Select")
+root.geometry("400x300")
 
 instructions = tkinter.Label(root, text="Choose your favorite fruit:")
 instructions.pack()
 
 # TODO: Add radio buttons
-radio_var = None
+radio_var = tkinter.StringVar(value="Apple")
+
+radio1 = tkinter.Radiobutton(root, text="Apple", variable=radio_var, value="Apple")
+radio1.pack()
+
+radio2 = tkinter.Radiobutton(root, text="Banana", variable=radio_var, value="Banana")
+radio2.pack()
+
+radio3 = tkinter.Radiobutton(root, text="Mango", variable=radio_var, value="Mango")
+radio3.pack()
 
 output_str = tkinter.StringVar(value="You chose: None")
 output = tkinter.Label(root, textvariable=output_str)

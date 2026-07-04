@@ -5,6 +5,7 @@ price_notification = "The price of {} is ${}."
 item1 = "Latte"
 price1 = 3.5
 print(price_notification.format(item1, price1))
+print(f"{item1} {price1}")
 
 # TODO: Post: Espresso ($2.75)
 item2 = "Espresso"

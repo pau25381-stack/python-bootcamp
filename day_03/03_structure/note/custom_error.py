@@ -16,6 +16,7 @@ raise CustomError("yikes", 'a')
 """
 
 class CustomError(Exception):
-    pass
+    def __init__(self):
+        super().__init__()
 
 raise CustomError("yikes")
