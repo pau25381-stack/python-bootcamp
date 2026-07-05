@@ -23,11 +23,18 @@ def show(expenses):
 
 def save(expenses):
     """Save the expenses in a text file"""
+    with open("expenses.txt", "a") as file:
+        lines = [str(expense) +"\n" for expense in expenses]
+        file.writelines(lines)
+
 
 
 def load(expenses):
     """Return the list of expenses from a text file"""
-    return []
+    with open("expenses.txt", "r") as file:
+        numbers = [int(expense) for expense in file.read().splitlines()]
+    return numbers
+
 
 def main():
     running = True

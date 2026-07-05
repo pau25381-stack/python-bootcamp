@@ -34,11 +34,17 @@ def show(inventory):
 
 def save(inventory):
     """Save the inventory to a JSON file"""
+    import json
+    with open('inventory.json', 'w') as file:
+        json.dump(inventory, file, indent=4)
 
 
 def load(inventory):
     """Return the inventory from a JSON file"""
-    return []
+    import json
+    with open('inventory.json', 'r') as file:
+        data = json.load(file)
+    return data
 
 
 def main():

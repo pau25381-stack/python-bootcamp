@@ -1,4 +1,5 @@
 import cProfile
+from multiprocessing import Pool
 
 def fib(n):
     if n <= 1:
@@ -8,7 +9,9 @@ def fib(n):
 
 def main():
     inputs = [35, 36, 37, 38]
-    outputs = [fib(number) for number in inputs]
+    #outputs = [fib(number) for number in inputs]
+    with Pool() as pool:
+        outputs = pool.map(fib, inputs)
 
 
 if __name__ == '__main__':

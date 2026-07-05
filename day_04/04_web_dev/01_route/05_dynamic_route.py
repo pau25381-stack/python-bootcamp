@@ -17,7 +17,7 @@ def profile():
 @app.route("/profile/<username>")
 @app.route("/profiles/<username>")
 def profile_dynamic(username):
-    return f"Profile {username}"
+    return f"Profile of {username}"
 
 
 app.run()

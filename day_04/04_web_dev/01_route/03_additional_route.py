@@ -10,7 +10,7 @@ def index():
 
 @app.route("/profile/")
 def profile():
-    return "Profile Page"
+    return "This is a profile page"
 
 
 app.run()
