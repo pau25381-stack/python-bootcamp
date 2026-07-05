@@ -8,8 +8,8 @@ print(expense_1)
 print(expense_2)
 print(expense_3)
 
-total = expense_1 + expense_2 + expense_3
+#total = expense_1 + expense_2 + expense_3
 print(total)
 
 # TODO: Format this part using f-strings
-print(f"{expense_1} + {expense_2} + {expense_3} == {total}")
+print(f"{expense_1} + {expense_2} + {expense_3} = {total}")
