@@ -6,7 +6,7 @@ class Card:
     def __init__(self, suit: str, rank: str):
         self.suit = suit  # e.g. "Hearts"
         self.rank = rank  # e.g. "K", "10", "A"
-
+#
     def value(self) -> int:
         """
         Returns the numeric value of the card.
